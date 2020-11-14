@@ -1,0 +1,115 @@
+
+/* Font Family */
+@font-face{
+	font-family: "Jost";
+	src: url("fonts/Jost-VariableFont_wght.ttf");
+}
+
+#myBtn{
+	margin-left: 10px;
+    padding: 12px 35px;
+    border-radius: 5px;
+    background-color: #144dde;
+    font-family: Jost;
+    color: white;
+    border: 0;
+}
+#myBtn:hover {
+	background-color: #103fb8;
+	cursor: pointer;
+}
+
+/* Sign Up Pop Up */
+.popUp{
+	position: fixed;
+	display: none;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	left: 0;
+	top: 0;
+	backdrop-filter: blur(2px);
+}
+
+.popUp-content{
+	background: #1F2022;
+	border: 1px solid #6A6A6A;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	width: 703px;
+	height: 532px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	padding: 100px;
+}
+
+.popUp .popUp-content .popUp-content-in .head_text{
+	width: 495px;
+	height: 66px;
+	left: 713px;
+	font-family: Jost;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 46px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.popUp .popUp-content .popUp-content-in .discrb_text{
+	font-family: Jost;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 35px;
+	text-align: center;
+	color: #ADADA9;
+}
+
+.popUp .popUp-content .popUp-content-in .email{
+	width: 331px;
+	height: 60px;
+	background: #383838;
+	border: 1px solid #575757;
+	box-sizing: border-box;
+	border-radius: 4px;
+	padding: 25px;
+}
+
+.popUp .popUp-content .popUp-content-in .email:hover {
+	background: #ffffff;
+}
+
+.popUp .popUp-content .popUp-content-in .signUp_btn{
+	width: 165px;
+	height: 60px;	
+	background: #2B59C3;
+	border: 1px solid #2B59C3;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 4px;
+	color: #ffffff;
+	text-align: center;
+	font-family: Jost;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 26px;
+}
+
+.popUp .popUp-content .popUp-content-in .signUp_btn:hover {
+	background-color: #103fb8;
+	cursor: pointer;
+}
+
+.popUp .popUp-content .popUp-content-in .underEmail {	
+	font-family: Jost;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 23px;
+	color: #ADADA9;
+}
